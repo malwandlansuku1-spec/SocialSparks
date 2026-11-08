@@ -1,0 +1,64 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#F3F0FF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Social Sparks"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#673AB7"
+        android:layout_marginBottom="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make someone's day brighter!"
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:layout_marginBottom="30dp"/>
+
+    <EditText
+        android:id="@+id/timeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter time of day"
+        android:inputType="text"
+        android:padding="14dp"
+        android:backgroundTint="#673AB7"/>
+
+    <Button
+        android:id="@+id/getSuggestionButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Suggestion"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#673AB7"/>
+
+    <TextView
+        android:id="@+id/suggestionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your social suggestion will appear here."
+        android:textSize="18sp"
+        android:textColor="#333333"
+        android:gravity="center"
+        android:padding="20dp"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_marginTop="15dp"/>
+
+</LinearLayout>
